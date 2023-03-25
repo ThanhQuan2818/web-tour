@@ -1,4 +1,0 @@
-<!-- input excel -->
-<?php
-    
-?>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./lienhe.css">
+</head>
+<body>
+	<h1 class="lienhe">Liên hệ</h1>
+	<form  action="submit-form.php" method="post" class="lh_form">
+		<label class="lh_label" for="name">Họ tên:</label>
+		<input class="lh_box" type="text" id="name" name="name" placeholder="Nhập họ tên của bạn" required>
+
+		<label class="lh_label" for="email">Email:</label>
+		<input class="lh_box" type="text" id="email" name="email" placeholder="Nhập email của bạn" required>
+
+		<label class="lh_label" for="message">Tin nhắn:</label>
+		<textarea class="lh_box2" id="message" name="message" placeholder="Nhập tin nhắn của bạn" rows="5" required></textarea>
+
+		<input class="lh_btngui" type="submit" value="Gửi liên hệ">
+	</form>
+</body>
+</html>
